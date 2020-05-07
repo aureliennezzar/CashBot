@@ -77,15 +77,7 @@ def sett():
 
 
 def groupmsg(texttosend):
-	post = {"text": "{0}".format(texttosend)}
-	try:
-		json_data = json.dumps(post)
-		req = request.Request("https://hooks.slack.com/services/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",
-							data=json_data.encode('ascii'),
-							headers={'Content-Type': 'application/json'}) 
-		resp = request.urlopen(req)
-	except Exception as em:
-		print("EXCEPTION: " + str(em))
+	emptyvar = texttosend
 
 def bot_exit():
 	groupmsg('* Bot déconnecté * ')
