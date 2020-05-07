@@ -1,0 +1,26 @@
+MENU 
+	CHOIX 1 >  SCAN	:
+
+		1. bot_detect()
+			a. Screenshot()
+			b.Pytesseract
+				- Q, r1, r2, r3
+			c.Test ques set
+			d.replace char for question, reponse1, reponse2, reponse3
+			e.METHODES
+				- Methode 1 get result x3
+				-replace char
+				- Methode 2 findword x3
+			f.proba
+			g.result
+
+
+
+
+
+	CHOIX 2 >  CHAT :
+		lancer chat.bat
+	CHOIX 3 >  OPTIONS :
+		Lancer fonction sett():
+	CHOIX 4 > RETOUR :
+		Revenir App .bat
